@@ -292,7 +292,7 @@ def seed_if_empty() -> None:
         try:
             rep_id = _insert_user(connection, "rep@example.com", "Avery Chen", "representative")
             _insert_user(connection, "family@example.com", "Jordan Blake", "family")
-            _insert_user(connection, "admin@example.com", "Riley Morgan", "admin")
+            _insert_user(connection, "admin@example.com", "Matt Wojo", "admin")
             connection.commit()
         finally:
             connection.close()
